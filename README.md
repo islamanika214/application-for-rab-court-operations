@@ -4,7 +4,7 @@
 
 The **RAB Mobile Court System** is a desktop-based Java application designed to simulate the real-life mobile court process operated by the Rapid Action Battalion (RAB) in Bangladesh. It enables multiple stakeholders — magistrates, RAB officers, lawyers, clerks, and defendants — to perform their roles digitally. The system ensures **faster, transparent, and more organized legal proceedings** while providing a modular and object-oriented design.
 
-This project was developed as part of the **CSE213 course**, focusing on applying **object-oriented programming (OOP) principles** and **JavaFX-based GUI development**.
+This project was developed as part of the **CSE213 course at Independent University, Bangladesh**, focusing on applying **object-oriented programming (OOP) principles** and **JavaFX-based GUI development**.
 
 
 ## Features
