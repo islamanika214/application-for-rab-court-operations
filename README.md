@@ -6,6 +6,10 @@ The **RAB Mobile Court System** is a desktop-based Java application designed to 
 
 This project was developed as part of the **CSE213 course at Independent University, Bangladesh**, focusing on applying **object-oriented programming (OOP) principles** and **JavaFX-based GUI development**.
 
+<p align="center">
+  <img src="CSE213_Project/Screenshots/1.jpg" alt="Screenshot 1" width="45%"/>
+  <img src="CSE213_Project/Screenshots/2.jpg" alt="Screenshot 2" width="45%"/>
+</p>
 
 ## Features
 
