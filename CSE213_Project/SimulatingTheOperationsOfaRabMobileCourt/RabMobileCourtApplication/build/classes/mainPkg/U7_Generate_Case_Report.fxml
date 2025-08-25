@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #9bb4f2;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainPkg.U7_Generate_Case_ReportController">
+   <children>
+      <TextField fx:id="caseReportIdTextField" layoutX="48.0" layoutY="46.0" promptText="Case Report Id:" />
+      <TextArea fx:id="reportDetailsTextArea" layoutX="46.0" layoutY="101.0" prefHeight="78.0" prefWidth="548.0" />
+      <DatePicker fx:id="caseReportDatePicker" layoutX="213.0" layoutY="46.0" promptText="Case Report Date" />
+      <Button layoutX="155.0" layoutY="188.0" mnemonicParsing="false" onAction="#saveReportOnClick" prefHeight="25.0" prefWidth="86.0" style="-fx-background-color: #878ef5;" text="Save " />
+      <TextArea fx:id="showSaveReportTextArea" editable="false" layoutX="46.0" layoutY="229.0" prefHeight="130.0" prefWidth="548.0" />
+      <Label layoutX="48.0" layoutY="78.0" prefHeight="17.0" prefWidth="114.0" text="Report Details :" />
+      <Label fx:id="notificationLabel" layoutX="48.0" layoutY="212.0" prefHeight="17.0" prefWidth="411.0" />
+      <ComboBox fx:id="monthComboBox" layoutX="48.0" layoutY="14.0" prefWidth="150.0" promptText="select Month" />
+      <ComboBox fx:id="yearComboBox" layoutX="213.0" layoutY="14.0" prefWidth="150.0" promptText="selelct Year" />
+      <Button layoutX="288.0" layoutY="188.0" mnemonicParsing="false" onAction="#viewCaseReportOnClick" prefHeight="25.0" prefWidth="174.0" text="View Case Report" wrapText="true" />
+      <Button layoutX="439.0" layoutY="361.0" mnemonicParsing="false" onAction="#backToDashBoardOnClick" prefHeight="25.0" prefWidth="130.0" text="Back TO DashBoard" />
+   </children>
+</AnchorPane>

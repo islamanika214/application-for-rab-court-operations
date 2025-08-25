@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="638.0" prefWidth="1052.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rabproject.SendfileclarkController">
+   <children>
+      <Label layoutX="375.0" layoutY="14.0" prefHeight="107.0" prefWidth="255.0" text="Sending File">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="districtofficer" layoutX="375.0" layoutY="143.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" text="District Officer" />
+      <RadioButton fx:id="magistrate" layoutX="375.0" layoutY="193.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="140.0" text="Magistrate" />
+      <RadioButton fx:id="rabofficer" layoutX="376.0" layoutY="245.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="114.0" text="RAB Officer" />
+      <RadioButton fx:id="lawyer" layoutX="378.0" layoutY="299.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="Lawyer" />
+      <Button layoutX="403.0" layoutY="484.0" mnemonicParsing="false" onAction="#addonclick" text="Send File" />
+   </children>
+</AnchorPane>

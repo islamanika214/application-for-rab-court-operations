@@ -1,0 +1,15 @@
+initialSurveyId : 001, 
+ institutionName : Evergreen Wellness Clinic,  institutionLocation : Malibagh,   initialSurveyDate  : 2023-11-02, 
+ Suspecious Activities: 
+1)Doesn't mantain proper rules
+2)No proper instruments
+3) doctors are absent
+
+------------------------------
+initialSurveyId : 002, 
+ institutionName : NourishLink Pharmacy Care,  institutionLocation : Banani,   initialSurveyDate  : 2023-11-15, 
+ Suspecious Activities: 
+1) Sells dateover medicine
+2)selling expired medicine
+3)selling fake medicine
+------------------------------

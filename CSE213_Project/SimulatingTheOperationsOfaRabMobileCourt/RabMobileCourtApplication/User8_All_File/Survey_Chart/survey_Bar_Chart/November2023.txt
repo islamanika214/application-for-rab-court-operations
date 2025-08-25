@@ -1,0 +1,5 @@
+hospital#7
+pharmacy#6
+resturent#12
+coaching centre#3
+pasport Office#2

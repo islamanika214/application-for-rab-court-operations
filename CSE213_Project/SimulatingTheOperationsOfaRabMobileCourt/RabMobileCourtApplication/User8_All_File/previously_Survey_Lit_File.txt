@@ -1,0 +1,12 @@
+100#Eclipse Grove General Hospital#Mohammadpur,Dhaka#2023-11-01
+101#Harmony Health Apothecary#Banshudara,Dhaka#2023-11-04
+102#Dhanmondi Delights Diner#Dhanmondi#2023-11-07
+103#NourishLink Pharmacy Care#Uttara#2023-11-10
+104#Horizon Healing Hospital#Mirpur 12,Dhaka#2023-11-22
+105#Apex Care Hospital#Malibagh#2023-11-18
+106#PurityScript Rx Corner#Khilgaon#2023-11-12
+107#VitalCure Pharmacy Solutions#Motijheel#2023-11-29
+108#PurityScript Rx Corner#Wari#2023-11-15
+109#Banani Biryani Junction#Banani#2023-11-15
+110#Jatrabari Joyful Dine#Jatrabari#2023-11-20
+100#abc#dhaka#2023-12-15

@@ -1,0 +1,4 @@
+hospital#21
+coaching centre#11
+Pharmacy#32
+resturent#23

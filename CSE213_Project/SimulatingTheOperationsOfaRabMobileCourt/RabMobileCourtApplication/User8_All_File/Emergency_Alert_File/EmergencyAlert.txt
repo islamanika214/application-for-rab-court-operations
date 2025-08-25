@@ -1,0 +1,18 @@
+emergancyAlertId : 991, 
+ institutionName : Precision Study Solutions, 
+institutionLocation : Motijheel, 
+alertReciever : Operations Administrator, 
+description : I need help
+-----------------------
+emergancyAlertId : 992, 
+ institutionName : Express Documents Authority, 
+institutionLocation : Uttara, 
+alertReciever : RAB Officer, 
+description : I need help
+-----------------------
+emergancyAlertId : 993, 
+ institutionName : Premier Travel Document Center, 
+institutionLocation : Badda, 
+alertReciever : Distrcict Officer, 
+description : I need help
+-----------------------

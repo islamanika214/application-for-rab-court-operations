@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="850.0" style="-fx-background-color: #ffb74d;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainPkg.MagistrateDashSceneController">
+   <children>
+      <Label layoutX="254.0" layoutY="39.0" prefHeight="71.0" prefWidth="400.0" text="Welcome Magistrate">
+         <font>
+            <Font name="System Bold" size="41.0" />
+         </font>
+      </Label>
+      <Button layoutX="38.0" layoutY="197.0" mnemonicParsing="false" onAction="#goToRevCaseDetailsSceneOnClick" prefHeight="56.0" prefWidth="202.0" style="-fx-border-radius: 20; -fx-background-radius: 20; -fx-border-width: 3; -fx-border-color: black;" text="Review Case Details">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="38.0" layoutY="277.0" mnemonicParsing="false" onAction="#goToViewCaseInfoSceneOnClick" prefHeight="56.0" prefWidth="202.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20; -fx-border-width: 3;" text="View Case Information">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="38.0" layoutY="360.0" mnemonicParsing="false" onAction="#goToSetCourtSchedSceneOnClick" prefHeight="56.0" prefWidth="202.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 3;" text="Set Court Schedule">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="38.0" layoutY="444.0" mnemonicParsing="false" onAction="#goToIssueSerWarSceneOnClick" prefHeight="56.0" prefWidth="202.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-width: 3; -fx-border-color: black;" text="Issue Search Warrant">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="615.0" layoutY="197.0" mnemonicParsing="false" onAction="#goToVerPieChartSceneOnClick" prefHeight="56.0" prefWidth="202.0" style="-fx-border-radius: 20; -fx-background-radius: 20; -fx-border-width: 3; -fx-border-color: black;" text="Verdict Pie Chart">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="615.0" layoutY="277.0" mnemonicParsing="false" onAction="#goToContCourtClerkSceneOnClick" prefHeight="56.0" prefWidth="202.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 3;" text="Contact Court Clerk">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="615.0" layoutY="360.0" mnemonicParsing="false" onAction="#goToAnnVerCreRepSceneOnClick" prefHeight="56.0" prefWidth="202.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 3;" text="Announce Verdict &amp; Create Report" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="615.0" layoutY="444.0" mnemonicParsing="false" onAction="#goToAnaCrimActiSceneOnClick" prefHeight="56.0" prefWidth="202.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 3;" text="Analyze Criminal Activity">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font></Button>
+      <ImageView fitHeight="320.0" fitWidth="310.0" layoutX="271.0" layoutY="197.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Assets/magistrate_logo.jpg" />
+         </image>
+      </ImageView>
+      <Line endX="387.39996337890625" layoutX="310.0" layoutY="112.0" opacity="0.75" startX="-100.0" strokeWidth="4.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Line>
+      <Button layoutX="641.0" layoutY="565.0" mnemonicParsing="false" onAction="#logOutButtonOnClick" prefHeight="36.0" prefWidth="149.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 3;" text="Log Out">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="850.0" style="-fx-background-color: #7b1fa2;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainPkg.RabOfficerDashSceneController">
+    <children>
+        <Label layoutX="184.0" layoutY="25.0" prefHeight="66.0" prefWidth="481.0" style="-fx-background-color: #7b1fa2;" text="Welcome RAB Officer" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+            <font>
+                <Font name="Verdana Bold" size="40.0" />
+            </font>
+        </Label>
+        <Button layoutX="37.0" layoutY="193.0" mnemonicParsing="false" onAction="#goToReqSerWarSceneOnClick" prefHeight="66.0" prefWidth="168.0" style="-fx-border-color: #64dd17; -fx-border-width: 3; -fx-background-radius: 20; -fx-border-radius: 20;" text="Request Search Warrent" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Verdana" size="14.0" />
+         </font></Button>
+        <Button layoutX="37.0" layoutY="286.0" mnemonicParsing="false" onAction="#goToIncidRepSceneOnClick" prefHeight="66.0" prefWidth="168.0" style="-fx-border-color: #64dd17; -fx-border-width: 3; -fx-border-radius: 20; -fx-background-radius: 20;" text="Incident Reporting">
+         <font>
+            <Font name="Verdana" size="14.0" />
+         </font></Button>
+        <Button layoutX="37.0" layoutY="375.0" mnemonicParsing="false" onAction="#goToDefenInfoSceneOnClick" prefHeight="66.0" prefWidth="168.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: #64dd17; -fx-border-width: 3;" text="Defendant Information" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Verdana" size="14.0" />
+         </font></Button>
+        <Button layoutX="37.0" layoutY="463.0" mnemonicParsing="false" onAction="#goToEvidManageSceneOnClick" prefHeight="66.0" prefWidth="168.0" style="-fx-border-width: 3; -fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: #64dd17;" text="Evidence Management" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Verdana" size="14.0" />
+         </font></Button>
+        <Button layoutX="646.0" layoutY="193.0" mnemonicParsing="false" onAction="#goToEmergSupSceneOnClick" prefHeight="66.0" prefWidth="168.0" style="-fx-border-width: 3; -fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: #64dd17;" text="Emergency Support" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Verdana" size="14.0" />
+         </font></Button>
+        <Button layoutX="646.0" layoutY="286.0" mnemonicParsing="false" onAction="#goToAccLegExpSceneOnClick" prefHeight="66.0" prefWidth="168.0" style="-fx-border-color: #64dd17; -fx-background-radius: 20; -fx-border-radius: 20; -fx-border-width: 3;" text="Access Legal Experts" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Verdana" size="14.0" />
+         </font></Button>
+        <Button layoutX="646.0" layoutY="375.0" mnemonicParsing="false" onAction="#goToSubManageSceneOnClick" prefHeight="66.0" prefWidth="168.0" style="-fx-background-radius: 20; -fx-border-color: #64dd17; -fx-border-radius: 20; -fx-border-width: 3;" text="Subordinate Management" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Verdana" size="14.0" />
+         </font></Button>
+        <Button layoutX="646.0" layoutY="463.0" mnemonicParsing="false" onAction="#goToAddiCaseInfoSceneOnClick" prefHeight="66.0" prefWidth="168.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: #64dd17; -fx-border-width: 3;" text="Additional Case Information" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Verdana" size="14.0" />
+         </font></Button>
+      <ImageView fitHeight="401.0" fitWidth="410.0" layoutX="219.0" layoutY="152.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Assets/Rapid_Action_Battalion_(RAB)_Emblem.svg.png" />
+         </image>
+      </ImageView>
+      <Line endX="313.39996337890625" layoutX="387.0" layoutY="91.0" opacity="0.75" startX="-240.99998474121094" strokeWidth="4.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.15839999914169312" green="0.8799999952316284" blue="0.7179147005081177" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.649505078792572" blue="0.28999999165534973" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Line>
+      <Button layoutX="663.0" layoutY="572.0" mnemonicParsing="false" onAction="#logOutButtonOnClick" prefHeight="46.0" prefWidth="134.0" style="-fx-border-color: #80cbc4; -fx-border-width: 3; -fx-background-radius: 20; -fx-border-radius: 20;" text="Logout" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
